@@ -1,0 +1,17 @@
+# Ignore environment files and sensitive configurations
+openclaw.json
+*.env
+*token*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+/logs/
+/scripts/logs/
+
+# Ignore node modules and python venv
+node_modules/
+venv/
+__pycache__/
